@@ -23,6 +23,6 @@ export function useLanguage() {
     } catch (e) { }
   };
   const language = i18n.language || defaultLanguage;
-  const dictionary = {}; // optional direct dictionary access if needed
+  const dictionary = i18n.getDataByLanguage(i18n.language) || {}; // get full translation objects for current language
   return { language, setLanguage, languages, t, dictionary };
 }
