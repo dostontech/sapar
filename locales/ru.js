@@ -303,7 +303,7 @@ export const ru = {
                 role: 'Product & Technology Lead',
                 subtitle: 'Banking & Fintech Software Engineer',
                 bio: 'Более 6 лет опыта разработки для международных банков OCBC Bank и Bank of Singapore. Руководит архитектурой, безопасностью и интеграциями.',
-                strengths: ['Fintech & Banking', 'React / Next.js', 'Maker-Checker', 'Security'],
+                strengths: ['Fintech & Banking', 'Maker-Checker', 'Security'],
             },
             {
                 name: 'Zoirbek Tukhtasinov',

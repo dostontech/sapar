@@ -161,11 +161,10 @@ export default function MeetOurTeamSection() {
                             key={dotIdx}
                             onClick={() => scrollToSlide(dotIdx)}
                             aria-label={`Slide ${dotIdx + 1}`}
-                            className={`h-2 rounded-full transition-all duration-300 ${
-                                activeIndex === dotIdx
+                            className={`h-2 rounded-full transition-all duration-300 ${activeIndex === dotIdx
                                     ? 'w-6 bg-[#028090]'
                                     : 'w-2 bg-slate-300'
-                            }`}
+                                }`}
                         />
                     ))}
                 </div>
