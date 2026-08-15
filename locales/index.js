@@ -11,10 +11,10 @@ export const locales = {
 };
 
 export const languages = [
-    { code: 'uz', name: 'O‘zbekcha', label: 'UZ', flag: '🇺🇿' },
-    { code: 'oz', name: 'Ўзбекча', label: 'ЎЗ', flag: '🇺🇿' },
-    { code: 'ru', name: 'Русский', label: 'RU', flag: '🇷🇺' },
-    { code: 'en', name: 'English', label: 'EN', flag: '🇬🇧' },
+    { code: 'uz', name: 'O‘zbekcha', script: 'Lotin', label: 'UZ', fullLabel: 'O‘zbek (Lotin)', flag: '🇺🇿' },
+    { code: 'oz', name: 'Ўзбекча', script: 'Кирилл', label: 'ЎЗ', fullLabel: 'Ўзбек (Кирилл)', flag: '🇺🇿' },
+    { code: 'ru', name: 'Русский', script: '', label: 'RU', fullLabel: 'Русский', flag: '🇷🇺' },
+    { code: 'en', name: 'English', script: '', label: 'EN', fullLabel: 'English', flag: '🇬🇧' },
 ];
 
 export const defaultLanguage = 'uz';
