@@ -1,32 +1,15 @@
 'use client';
 
 import { useRef, useState } from 'react';
+import { useLanguage } from '@/context/language-context';
 import { Star, Sparkles, ChevronLeft, ChevronRight } from 'lucide-react';
 
-const testimonials = [
-    {
-        quote: "SaparERP orqali 1C va alohida EDO tizimlaridan to'liq qutildik. Hisob-fakturalar va soliq hisobotlari to'g'ridan-to'g'ri tizim ichida jo'natiladi.",
-        author: 'Farrux Rustamov',
-        role: 'Bosh direktor, Tashkent Logistic MChJ',
-        rating: 5,
-    },
-    {
-        quote: "Xodimlar davomati va oylik hisob-kitobi bir necha daqiqaga qisqardi. GPS davomat tufayli ortiqcha qog'oz jurnallardan butkul voz kechdik.",
-        author: 'Nilufar Yusupova',
-        role: 'HR direktor, Silk Road Retail',
-        rating: 5,
-    },
-    {
-        quote: "Savdo voronkasi va CRM qulayligi sotuvlarimizni 30% ga oshirdi. Barcha bitimlar va qarzdorliklar real vaqtda ko'rinib turadi.",
-        author: 'Sardor Qosimov',
-        role: 'Tijorat direktori, Grand Distribution',
-        rating: 5,
-    },
-];
-
 export default function OurTestimonialsSection() {
+    const { t, dictionary } = useLanguage();
     const scrollContainerRef = useRef(null);
     const [activeIndex, setActiveIndex] = useState(0);
+
+    const testimonials = dictionary?.testimonials?.items || [];
 
     const handleScroll = () => {
         if (!scrollContainerRef.current) return;
@@ -53,17 +36,17 @@ export default function OurTestimonialsSection() {
             <div className="text-center max-w-3xl mx-auto">
                 <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#EAF5F2] border border-[#DCE9E5] text-[#028090] text-xs sm:text-sm font-semibold uppercase tracking-wider">
                     <Sparkles className="size-3.5 text-[#02C39A]" />
-                    <span>Mijozlar fikri</span>
+                    <span>{t('testimonials.badge')}</span>
                     <span className="text-slate-400 font-normal">|</span>
-                    <span className="text-slate-500 font-normal">Testimonials</span>
+                    <span className="text-slate-500 font-normal">{t('testimonials.badgeSub')}</span>
                 </div>
 
                 <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mt-4 tracking-tight">
-                    Biznes egalari nima deydi?
+                    {t('testimonials.title')}
                 </h2>
 
                 <p className="text-sm sm:text-base md:text-lg text-slate-600 mt-3 leading-relaxed">
-                    O&apos;zbekistonning yetakchi kompaniyalari SaparERP bilan ish unumdorligini qanday oshirganini bilib oling.
+                    {t('testimonials.description')}
                 </p>
             </div>
 
@@ -81,7 +64,7 @@ export default function OurTestimonialsSection() {
                         <div>
                             {/* Stars */}
                             <div className="flex items-center gap-1 mb-4 text-[#02C39A]">
-                                {[...Array(item.rating)].map((_, rIdx) => (
+                                {[...Array(5)].map((_, rIdx) => (
                                     <Star key={rIdx} className="size-4 fill-[#02C39A] text-[#02C39A]" />
                                 ))}
                             </div>
@@ -125,7 +108,7 @@ export default function OurTestimonialsSection() {
                     <button
                         onClick={() => scrollToSlide(Math.max(0, activeIndex - 1))}
                         disabled={activeIndex === 0}
-                        aria-label="Oldingi"
+                        aria-label="Previous"
                         className="size-8 rounded-full bg-white border border-slate-200 text-slate-600 flex items-center justify-center disabled:opacity-30 disabled:cursor-not-allowed shadow-xs"
                     >
                         <ChevronLeft className="size-4" />
@@ -133,7 +116,7 @@ export default function OurTestimonialsSection() {
                     <button
                         onClick={() => scrollToSlide(Math.min(testimonials.length - 1, activeIndex + 1))}
                         disabled={activeIndex === testimonials.length - 1}
-                        aria-label="Keyingi"
+                        aria-label="Next"
                         className="size-8 rounded-full bg-white border border-slate-200 text-slate-600 flex items-center justify-center disabled:opacity-30 disabled:cursor-not-allowed shadow-xs"
                     >
                         <ChevronRight className="size-4" />

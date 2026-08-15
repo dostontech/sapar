@@ -1,37 +1,14 @@
 'use client';
 
 import { useState } from 'react';
-import { Minus, Plus, HelpCircle, Sparkles } from 'lucide-react';
-
-const faqs = [
-    {
-        question: "1. SaparERP soliq hisobotlarini avtomatik boshqaradimi?",
-        answer: "Soliq hujjatlari platforma ichida tayyorlanadi va sertifikatlangan EDO operatori kanali hamda Davlat soliq qo'mitasi axborot tizimi orqali yuboriladi — O'zbekistonda barcha elektron hisobotlar shu tartibda amalga oshiriladi. Ma'lumotlarni boshqa portalga qo'lda qayta kiritishingiz shart emas.",
-    },
-    {
-        question: "2. E-IMZO bilan imzolash platforma ichida ishlaydimi?",
-        answer: "Ha — hisob-faktura, shartnoma va ishonchnomalarni E-IMZO raqamli imzoingiz bilan platforma ichida, boshqa dasturga o'tmasdan imzolashingiz mumkin.",
-    },
-    {
-        question: "3. Mavjud 1C yoki Excel ma'lumotlarimni ko'chira olamanmi?",
-        answer: "Ha. Mijozlar, xodimlar, mahsulotlar va ombor ma'lumotlarini CSV/Excel orqali import qilishingiz mumkin. Onboarding jarayonida jamoamiz 1C dan ko'chirishga yordam beradi.",
-    },
-    {
-        question: "4. SaparERP qancha turadi?",
-        answer: "Har bir tarif barcha 8 modulni o'z ichiga oladi. Kichik jamoalar uchun Boshlang'ich tarif 450,000 so'm/oy, Professional 1,200,000 so'm/oy. Yillik to'lovda 15% chegirma mavjud. Kutish ro'yxatiga qo'shilib maxsus chegirmaga ega bo'ling.",
-    },
-    {
-        question: "5. Ma'lumotlarim qayerda saqlanadi — xavfsizmi?",
-        answer: "Ma'lumotlar xavfsizligi va himoyasi O'zbekiston Respublikasi qonunchiligi talablariga to'liq muvofiq, shifrlangan serverlarda saqlanadi va doimiy zaxira nusxalari olinadi.",
-    },
-    {
-        question: "6. POS, HR va buxgalteriya uchun alohida dasturlar kerakmi, yoki hammasi bitta hisobda ishlaydimi?",
-        answer: "Bitta hisob — barcha imkoniyatlarni qamrab oladi: CRM, HR va ish haqi, buxgalteriya, EDO/soliq hujjatlari, ombor, savdo va POS, loyihalar hamda mijozlarga xizmat barchasi bitta platformada integratsiyalashgan.",
-    },
-];
+import { useLanguage } from '@/context/language-context';
+import { Minus, Plus, HelpCircle } from 'lucide-react';
 
 export default function FaqSection() {
+    const { t, dictionary } = useLanguage();
     const [openIndex, setOpenIndex] = useState(0);
+
+    const faqs = dictionary?.faq?.items || [];
 
     return (
         <section id="faq" className="w-full py-10 md:py-16 px-4 max-w-5xl mx-auto">
@@ -39,17 +16,17 @@ export default function FaqSection() {
             <div className="text-center max-w-3xl mx-auto">
                 <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#EAF5F2] border border-[#DCE9E5] text-[#028090] text-xs sm:text-sm font-semibold uppercase tracking-wider">
                     <HelpCircle className="size-3.5 text-[#02C39A]" />
-                    <span>Ko&apos;p so&apos;raladigan savollar</span>
+                    <span>{t('faq.badge')}</span>
                     <span className="text-slate-400 font-normal">|</span>
-                    <span className="text-slate-500 font-normal">FAQ</span>
+                    <span className="text-slate-500 font-normal">{t('faq.badgeSub')}</span>
                 </div>
 
                 <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mt-4 tracking-tight">
-                    Savollaringiz bormi?
+                    {t('faq.title')}
                 </h2>
 
                 <p className="text-sm sm:text-base md:text-lg text-slate-600 mt-3 leading-relaxed">
-                    SaparERP haqida eng ko‘p beriladigan savollarga batafsil javoblar.
+                    {t('faq.description')}
                 </p>
             </div>
 

@@ -1,31 +1,14 @@
 'use client';
 
+import { useLanguage } from '@/context/language-context';
 import { PhoneCall, DatabaseZap, LayoutGrid, Sparkles, ArrowRight } from 'lucide-react';
 
+const icons = [PhoneCall, DatabaseZap, LayoutGrid];
+
 export default function HowItWorksSection() {
-    const data = [
-        {
-            step: '01',
-            kicker: 'DEMO OLING',
-            title: "Biznesingiz uchun Sapar'ni ko‘ring",
-            description: "Jamoamiz bilan bog‘laning va biznesingizga moslashtirilgan demo oling.",
-            icon: PhoneCall,
-        },
-        {
-            step: '02',
-            kicker: 'MA’LUMOTLARNI KO‘CHIRING',
-            title: 'Mavjud ma’lumotlaringizni olib keling',
-            description: 'Mijozlar, xodimlar, mahsulotlar va boshqa ma’lumotlarni tizimga import qiling.',
-            icon: DatabaseZap,
-        },
-        {
-            step: '03',
-            kicker: 'BIZNESINGIZNI BOSHQARING',
-            title: 'Hammasi bitta platformada',
-            description: 'Savdo, CRM, buxgalteriya, HR, ombor va hujjatlar — bir-biri bilan bog‘langan yagona tizimda.',
-            icon: LayoutGrid,
-        },
-    ];
+    const { t, dictionary } = useLanguage();
+
+    const steps = dictionary?.howItWorks?.steps || [];
 
     return (
         <section id="how-it-works" className="w-full py-20 px-4 max-w-7xl mx-auto">
@@ -33,24 +16,24 @@ export default function HowItWorksSection() {
             <div className="text-center max-w-3xl mx-auto">
                 <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#EAF5F2] border border-[#DCE9E5] text-[#028090] text-xs md:text-sm font-semibold uppercase tracking-wider">
                     <Sparkles className="size-3.5 text-[#02C39A]" />
-                    <span>Qanday ishlaydi</span>
+                    <span>{t('howItWorks.badge')}</span>
                     <span className="text-slate-400 font-normal">|</span>
-                    <span className="text-slate-500 font-normal">How it works</span>
+                    <span className="text-slate-500 font-normal">{t('howItWorks.badgeSub')}</span>
                 </div>
 
                 <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mt-5 tracking-tight">
-                    Biznesingizni Sapar&apos;ga 3 qadamda o&apos;tkazing
+                    {t('howItWorks.title')}
                 </h2>
 
                 <p className="text-base md:text-lg text-slate-600 mt-4 leading-relaxed">
-                    Murakkab joriy etishlarsiz. Mavjud ma&apos;lumotlaringiz bilan. Sapar biznesingizning asosiy jarayonlarini bitta tizimga birlashtiradi.
+                    {t('howItWorks.description')}
                 </p>
             </div>
 
             {/* Steps Grid */}
             <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-8">
-                {data.map((item, index) => {
-                    const Icon = item.icon;
+                {steps.map((item, index) => {
+                    const Icon = icons[index] || PhoneCall;
                     return (
                         <div
                             key={index}
@@ -80,7 +63,7 @@ export default function HowItWorksSection() {
                             </div>
 
                             <div className="mt-6 pt-4 border-t border-slate-100 flex items-center gap-1.5 text-xs font-semibold text-slate-400 group-hover:text-[#028090] transition-colors">
-                                <span>Qadam {item.step}</span>
+                                <span>{t('common.step')} {item.step}</span>
                                 <ArrowRight className="size-3.5 transition-transform group-hover:translate-x-1" />
                             </div>
                         </div>
