@@ -7,8 +7,8 @@ import { useTranslation } from 'react-i18next';
 export const languages = [
   { code: 'en', name: 'English', flag: '🇬🇧', label: 'English', script: null },
   { code: 'ru', name: 'Русский', flag: '🇷🇺', label: 'Russian', script: null },
-  { code: 'oz', name: "Oʻzbek (Latin)", flag: '🇺🇿', label: 'Uzbek Latin', script: 'Latin' },
-  { code: 'uz', name: "Ўzbek (Cyrillic)", flag: '🇺🇿', label: 'Uzbek Cyrillic', script: 'Cyrillic' },
+  { code: 'oz', name: "Oʻzbek", flag: '🇺🇿', label: 'Uzbek', script: 'Latin' },
+  { code: 'uz', name: "Ўzbek", flag: '🇺🇿', label: 'Uzbek', script: 'Cyrillic' },
 ];
 
 export const defaultLanguage = 'uz';
