@@ -5,10 +5,10 @@ import { useTranslation } from 'react-i18next';
 
 // Define supported languages metadata
 export const languages = [
-  { code: 'en', name: 'English', flag: '🇬🇧', label: 'English', script: null },
-  { code: 'ru', name: 'Русский', flag: '🇷🇺', label: 'Russian', script: null },
   { code: 'oz', name: "Oʻzbek", flag: '🇺🇿', label: 'Uzbek', script: 'Latin' },
   { code: 'uz', name: "Ўzbek", flag: '🇺🇿', label: 'Uzbek', script: 'Cyrillic' },
+  { code: 'ru', name: 'Русский', flag: '🇷🇺', label: 'Russian', script: null },
+  { code: 'en', name: 'English', flag: '🇬🇧', label: 'English', script: null },
 ];
 
 export const defaultLanguage = 'uz';
@@ -23,6 +23,6 @@ export function useLanguage() {
     } catch (e) { }
   };
   const language = i18n.language || defaultLanguage;
-  const dictionary = i18n.getDataByLanguage(i18n.language) || {}; // get full translation objects for current language
+  const dictionary = i18n.getResourceBundle(i18n.language) || {}; // get translation objects for current language
   return { language, setLanguage, languages, t, dictionary };
 }
