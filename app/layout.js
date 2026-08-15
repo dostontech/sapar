@@ -1,7 +1,9 @@
+'use client';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import LenisScroll from '@/components/lenis-scroll';
-import { LanguageProvider } from '@/context/language-context';
+import { I18nextProvider } from 'react-i18next';
+import i18n from '@/i18n';
 
 const inter = Inter({
     subsets: ['latin'],
@@ -13,9 +15,9 @@ export default function RootLayout({ children }) {
         <html lang='uz'>
             <LenisScroll />
             <body className="antialiased">
-                <LanguageProvider>
+                <I18nextProvider i18n={i18n}>
                     {children}
-                </LanguageProvider>
+                </I18nextProvider>
             </body>
         </html>
     );
