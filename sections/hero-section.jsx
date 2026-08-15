@@ -212,9 +212,8 @@ export default function HeroSection() {
                                 >
                                     {t('nav.products')}
                                     <ChevronDown
-                                        className={`size-4 transition-transform ${
-                                            openDropdown === 'products' ? 'rotate-180 text-[#028090]' : ''
-                                        }`}
+                                        className={`size-4 transition-transform ${openDropdown === 'products' ? 'rotate-180 text-[#028090]' : ''
+                                            }`}
                                     />
                                 </button>
 
@@ -225,10 +224,9 @@ export default function HeroSection() {
                                         rounded-2xl border border-zinc-200
                                         bg-white p-3 shadow-2xl
                                         transition-all duration-200
-                                        ${
-                                            openDropdown === 'products'
-                                                ? 'visible translate-y-0 opacity-100'
-                                                : 'invisible -translate-y-2 opacity-0'
+                                        ${openDropdown === 'products'
+                                            ? 'visible translate-y-0 opacity-100'
+                                            : 'invisible -translate-y-2 opacity-0'
                                         }
                                     `}
                                 >
@@ -288,9 +286,8 @@ export default function HeroSection() {
                                 >
                                     {t('nav.solutions')}
                                     <ChevronDown
-                                        className={`size-4 transition-transform ${
-                                            openDropdown === 'solutions' ? 'rotate-180 text-[#028090]' : ''
-                                        }`}
+                                        className={`size-4 transition-transform ${openDropdown === 'solutions' ? 'rotate-180 text-[#028090]' : ''
+                                            }`}
                                     />
                                 </button>
 
@@ -301,10 +298,9 @@ export default function HeroSection() {
                                         rounded-2xl border border-zinc-200
                                         bg-white p-3 shadow-2xl
                                         transition-all duration-200
-                                        ${
-                                            openDropdown === 'solutions'
-                                                ? 'visible translate-y-0 opacity-100'
-                                                : 'invisible -translate-y-2 opacity-0'
+                                        ${openDropdown === 'solutions'
+                                            ? 'visible translate-y-0 opacity-100'
+                                            : 'invisible -translate-y-2 opacity-0'
                                         }
                                     `}
                                 >
@@ -392,7 +388,7 @@ export default function HeroSection() {
                                 href="#contact"
                                 className="bg-[#0B2B33] hover:bg-[#153d45] px-5 py-2 rounded-xl text-xs sm:text-sm font-semibold text-white transition cursor-pointer shadow-xs active:scale-95"
                             >
-                               {t('common.contactUs')}
+                                {t('common.contactUs')}
                             </a>
                         </div>
 
@@ -461,9 +457,8 @@ export default function HeroSection() {
                             >
                                 {t('nav.products')}
                                 <ChevronDown
-                                    className={`size-4 transition-transform ${
-                                        mobileAccordion === 'products' ? 'rotate-180 text-[#028090]' : ''
-                                    }`}
+                                    className={`size-4 transition-transform ${mobileAccordion === 'products' ? 'rotate-180 text-[#028090]' : ''
+                                        }`}
                                 />
                             </button>
 
@@ -509,9 +504,8 @@ export default function HeroSection() {
                             >
                                 {t('nav.solutions')}
                                 <ChevronDown
-                                    className={`size-4 transition-transform ${
-                                        mobileAccordion === 'solutions' ? 'rotate-180 text-[#028090]' : ''
-                                    }`}
+                                    className={`size-4 transition-transform ${mobileAccordion === 'solutions' ? 'rotate-180 text-[#028090]' : ''
+                                        }`}
                                 />
                             </button>
 
@@ -644,7 +638,7 @@ export default function HeroSection() {
 
                         <div className="relative w-full mt-10 px-2 sm:px-4">
                             <div className="absolute inset-x-0 top-4 mx-auto h-48 max-w-2xl bg-[#02C39A]/20 blur-[90px] -z-10"></div>
-                            <img className="max-h-60 sm:max-h-80 md:max-h-[460px] object-cover object-top w-full max-w-5xl mx-auto border border-zinc-200/90 rounded-2xl shadow-[0_20px_50px_-20px_rgba(11,43,51,0.25)]" src="https://assets.prebuiltui.com/components/hero-section/hero-modern-dashboard.png" alt="dashboard" />
+                            <img className="max-h-60 sm:max-h-80 md:max-h-[460px] object-cover object-top w-full max-w-5xl mx-auto border border-zinc-200/90 rounded-2xl shadow-[0_20px_50px_-20px_rgba(11,43,51,0.25)]" src="  " alt="dashboard" />
                         </div>
 
                     </div>
