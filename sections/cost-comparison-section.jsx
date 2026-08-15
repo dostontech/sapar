@@ -99,7 +99,7 @@ export default function CostComparisonSection() {
                     </div>
                 </div>
 
-                {/* Right Card: High Contrast SaparERP Solution */}
+                {/* Right Card: High Contrast Sapar Solution */}
                 <div className="lg:col-span-5 relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#0B2B33] via-[#10404B] to-[#0B2B33] text-white p-6 md:p-8 shadow-2xl flex flex-col justify-between border border-[#02C39A]/20">
                     {/* Decorative radial glows */}
                     <div className="absolute top-0 right-0 -mr-20 -mt-20 size-60 rounded-full bg-[#02C39A]/20 blur-3xl pointer-events-none" />

@@ -21,7 +21,7 @@ export default function Navbar() {
         <>
             <nav className='sticky top-0 z-50 flex w-full items-center justify-between border-b border-slate-200/80 bg-white/80 px-4 py-3 backdrop-blur-md md:px-12 lg:px-20'>
                 <Link href='/' className="flex items-center gap-2">
-                    <Image src='/assets/logo.svg' alt='SaparERP Logo' className='h-8 w-auto' width={220} height={52} priority />
+                    <Image src='/assets/logo.svg' alt='Sapar Logo' className='h-8 w-auto' width={220} height={52} priority />
                 </Link>
 
                 <div className='hidden items-center space-x-6 text-slate-700 font-medium text-sm lg:flex'>

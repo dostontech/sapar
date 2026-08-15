@@ -5,7 +5,7 @@ export const metadata = {
     title: 'Sapar — O‘zbekiston Biznesi Uchun Yagona ERP Platforma',
     description: 'Buxgalteriya, EDO, Soliq hisobotlari, CRM, HR va Bank integratsiyasi bitta tizimda. O‘zbekiston me’yorlari va E-IMZO ga to‘liq integratsiyalangan.',
     keywords: [
-        'SaparERP',
+        'Sapar',
         'Sapar',
         'ERP O‘zbekiston',
         'Buxgalteriya dasturi',
@@ -17,23 +17,23 @@ export const metadata = {
         'E-IMZO imzolash',
         'Soliq hisoboti my3soliq',
     ],
-    authors: [{ name: 'SaparERP Jamoasi' }],
-    creator: 'SaparERP',
+    authors: [{ name: 'Sapar Jamoasi' }],
+    creator: 'Sapar',
     appleWebApp: {
-        title: 'SaparERP',
+        title: 'Sapar',
         statusBarStyle: 'default',
         capable: true,
     },
     openGraph: {
-        title: 'SaparERP — Bitta platforma, barcha dasturlar o‘rniga',
+        title: 'Sapar — Bitta platforma, barcha dasturlar o‘rniga',
         description: 'Buxgalteriya, EDO, Soliq, HR, CRM va Bank oqimlari — yagona unifikatsiyalangan milliy platformada.',
         type: 'website',
         locale: 'uz_UZ',
-        siteName: 'SaparERP',
+        siteName: 'Sapar',
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'SaparERP — O‘zbekiston Biznesi Uchun Yagona ERP Platforma',
+        title: 'Sapar — O‘zbekiston Biznesi Uchun Yagona ERP Platforma',
         description: 'Buxgalteriya, EDO, Soliq, HR, CRM va Bank oqimlari bitta tizimda.',
     },
 };

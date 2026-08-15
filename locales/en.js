@@ -70,7 +70,7 @@ export const en = {
         badge: 'Replaces',
         badgeSub: 'Ecosystem',
         title: 'One platform — replaces multiple disconnected tools',
-        description: 'Today, businesses in Uzbekistan juggle fragmented tools. SaparERP consolidates everything into a single account.',
+        description: 'Today, businesses in Uzbekistan juggle fragmented tools. Sapar consolidates everything into a single account.',
         replacesLabel: 'Replaces:',
         items: [
             {
@@ -122,7 +122,7 @@ export const en = {
         badge: 'For Uzbekistan',
         badgeSub: 'Built for Uzbekistan',
         title: 'Engineered specifically for local standards',
-        description: 'What sets SaparERP apart is deep, native integration with Uzbekistan government and banking infrastructure.',
+        description: 'What sets Sapar apart is deep, native integration with Uzbekistan government and banking infrastructure.',
         trustBadge: '100% compliant with national legislation',
         bannerTitle: 'Republic of Uzbekistan standards and security',
         bannerDesc: 'All corporate data is protected with enterprise-grade encryption in full compliance with local regulatory requirements.',
@@ -275,13 +275,13 @@ export const en = {
             { tool: 'HR Spreadsheets + wasted time', category: 'HR', cost: '~1,200,000 UZS', note: 'Manual reconciliation and lost employee work hours' },
             { tool: 'Lost leads due to lack of CRM', category: 'Sales', cost: '~2,000,000 UZS', note: 'Revenue lost from forgotten deals and delayed follow-ups' },
         ],
-        rightBadge: 'SaparERP Unified Subscription',
+        rightBadge: 'Sapar Unified Subscription',
         rightTitle: 'All 8 modules — in one single plan',
         rightDesc: 'No surprise licensing fees, unnecessary add-ons, or integration headaches. One predictable subscription.',
         specialPrice: 'Special Launch Pricing',
         priceSecret: '???',
         pricePeriod: 'UZS/mo',
-        priceSubtext: 'SaparERP pricing is being finalized — one subscription for all 8 modules.',
+        priceSubtext: 'Sapar pricing is being finalized — one subscription for all 8 modules.',
         checklist: [
             'All 8 modules (CRM, HR, Accounting, EDO, POS...)',
             'Direct E-IMZO and tax authority integration',
@@ -332,10 +332,10 @@ export const en = {
         badge: 'Testimonials',
         badgeSub: 'Reviews',
         title: 'What business leaders say',
-        description: 'Discover how leading companies in Uzbekistan boost efficiency and scale with SaparERP.',
+        description: 'Discover how leading companies in Uzbekistan boost efficiency and scale with Sapar.',
         items: [
             {
-                quote: 'With SaparERP, we completely replaced our 1C and third-party EDO setup. Invoices and tax reports are processed directly inside the platform.',
+                quote: 'With Sapar, we completely replaced our 1C and third-party EDO setup. Invoices and tax reports are processed directly inside the platform.',
                 author: 'Farrux Rustamov',
                 role: 'CEO, Tashkent Logistic LLC',
             },
@@ -413,10 +413,10 @@ export const en = {
         badge: 'Frequently Asked Questions',
         badgeSub: 'FAQ',
         title: 'Frequently asked questions',
-        description: 'Everything you need to know about getting started with SaparERP.',
+        description: 'Everything you need to know about getting started with Sapar.',
         items: [
             {
-                question: '1. Does SaparERP automate tax reporting?',
+                question: '1. Does Sapar automate tax reporting?',
                 answer: 'Yes. Tax documents and returns are prepared inside Sapar and dispatched directly through certified EDO operators and State Tax Committee (DSQ) gateways.',
             },
             {
@@ -428,7 +428,7 @@ export const en = {
                 answer: 'Yes. You can import customers, employees, catalog items, and stock quantities via Excel/CSV. Our onboarding team provides full migration assistance.',
             },
             {
-                question: '4. How much does SaparERP cost?',
+                question: '4. How much does Sapar cost?',
                 answer: 'Each plan includes all 8 modules. Starter tier is 450,000 UZS/mo, Professional is 1,200,000 UZS/mo. Annual subscriptions receive a 15% discount.',
             },
             {
@@ -437,7 +437,7 @@ export const en = {
             },
             {
                 question: '6. Do we need separate apps for POS, HR, and accounting?',
-                answer: 'No. A single SaparERP subscription covers CRM, HR & payroll, accounting, EDO/invoicing, warehouse, POS retail, project management, and customer support.',
+                answer: 'No. A single Sapar subscription covers CRM, HR & payroll, accounting, EDO/invoicing, warehouse, POS retail, project management, and customer support.',
             },
         ],
     },
@@ -476,7 +476,7 @@ export const en = {
         backToHome: 'Back to Home',
         badge: 'About Team & Product',
         title: 'Local Fintech Engineering for Uzbekistan Businesses',
-        description: 'The SaparERP team brings together international banking tech experience, enterprise engineering, and national accounting expertise.',
+        description: 'The Sapar team brings together international banking tech experience, enterprise engineering, and national accounting expertise.',
         quickContact: 'Direct Contact',
         coreStrengths: 'Our Core Strengths',
         strengthsList: [

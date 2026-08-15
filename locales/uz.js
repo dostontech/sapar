@@ -70,7 +70,7 @@ export const uz = {
         badge: 'Almashtiradi',
         badgeSub: 'Replaces',
         title: 'Bitta platforma — barcha dasturlar o‘rniga',
-        description: 'Bugun O‘zbek biznesi bir nechta uzilgan dasturlarni birlashtirib ishlatadi. SaparERP ularning barchasini bitta hisobga jamlaydi.',
+        description: 'Bugun O‘zbek biznesi bir nechta uzilgan dasturlarni birlashtirib ishlatadi. Sapar ularning barchasini bitta hisobga jamlaydi.',
         replacesLabel: 'O‘rniga:',
         items: [
             {
@@ -122,7 +122,7 @@ export const uz = {
         badge: 'O‘zbekiston uchun',
         badgeSub: 'Built for Uzbekistan',
         title: 'Faqat mahalliy me’yorlarga moslashtirilgan',
-        description: 'SaparERP ni boshqa platformalardan ajratib turadigan qism — davlat tizimlari bilan chuqur integratsiya.',
+        description: 'Sapar ni boshqa platformalardan ajratib turadigan qism — davlat tizimlari bilan chuqur integratsiya.',
         trustBadge: '100% milliy qonunchilikka mos',
         bannerTitle: 'O‘zbekiston Respublikasi davlat standartlari va xavfsizlik',
         bannerDesc: 'Barcha ma’lumotlar himoyalangan va O‘zbekiston qonunchiligiga to‘liq mos holatda qayta ishlanadi.',
@@ -262,7 +262,7 @@ export const uz = {
         badge: 'Haqiqiy xarajat',
         badgeSub: 'The Real Cost',
         title: 'Alohida dasturlar qanchaga tushadi?',
-        description: 'Quyidagi raqamlar — 15 kishilik jamoa uchun taxminiy misol. SaparERP narxlari yakunlangach yangilanadi.',
+        description: 'Quyidagi raqamlar — 15 kishilik jamoa uchun taxminiy misol. Sapar narxlari yakunlangach yangilanadi.',
         leftCardTitle: 'Tarqoq dasturlar xarajatlari',
         leftCardSubtitle: '15 kishilik jamoa uchun oylik chiqim',
         expensiveBadge: 'Qimmat & Tarqoq',
@@ -275,13 +275,13 @@ export const uz = {
             { tool: 'HR jadval + qo‘shimcha vaqt', category: 'HR', cost: '~1,200,000 so‘m', note: 'Qo‘lda hisoblash va yo‘qotilgan ish soatlari' },
             { tool: 'CRM yo‘qligi tufayli yo‘qotilgan lidlar', category: 'Savdo', cost: '~2,000,000 so‘m', note: 'E’tibordan chetda qolgan mijozlar yo‘qotishi' },
         ],
-        rightBadge: 'SaparERP Yagona Obunasi',
+        rightBadge: 'Sapar Yagona Obunasi',
         rightTitle: 'Barcha 8 ta modul — bitta hisobda',
         rightDesc: 'Ortiqcha litsenziyalar, qo‘shimcha integratsiya xarajatlari va yo‘qotilgan lidlarsiz yagona unifikatsiyalangan yechim.',
         specialPrice: 'Maxsus start narxi',
         priceSecret: '???',
         pricePeriod: 'so‘m/oy',
-        priceSubtext: 'SaparERP narxi joriy etilmoqda — bir subscription, barcha modullar.',
+        priceSubtext: 'Sapar narxi joriy etilmoqda — bir subscription, barcha modullar.',
         checklist: [
             'Barcha 8 modul (CRM, HR, Buxgalteriya, EDO, POS...)',
             'E-IMZO va DSQ to‘g‘ridan-to‘g‘ri integratsiyasi',
@@ -316,7 +316,7 @@ export const uz = {
                 name: 'Ulugbek Sharofiddinov',
                 role: 'Accounting & Financial Analysis',
                 subtitle: 'Audit & Soliq Tahlili Mutaxassisi',
-                bio: 'ANQO LLC bosh buxgalteri, 1C va ACCA o‘qituvchisi. SaparERP moliyaviy hisob-kitob, soliq va risk tahlili mantiqini shakllantiradi.',
+                bio: 'ANQO LLC bosh buxgalteri, 1C va ACCA o‘qituvchisi. Sapar moliyaviy hisob-kitob, soliq va risk tahlili mantiqini shakllantiradi.',
                 strengths: ['Buxgalteriya & Audit', '1C Dasturi', 'ACCA Hisoboti', 'Soliq'],
             },
             {
@@ -332,10 +332,10 @@ export const uz = {
         badge: 'Mijozlar fikri',
         badgeSub: 'Testimonials',
         title: 'Biznes egalari nima deydi?',
-        description: 'O‘zbekistonning yetakchi kompaniyalari SaparERP bilan ish unumdorligini qanday oshirganini bilib oling.',
+        description: 'O‘zbekistonning yetakchi kompaniyalari Sapar bilan ish unumdorligini qanday oshirganini bilib oling.',
         items: [
             {
-                quote: 'SaparERP orqali 1C va alohida EDO tizimlaridan to‘liq qutildik. Hisob-fakturalar va soliq hisobotlari to‘g‘ridan-to‘g‘ri tizim ichida jo‘natiladi.',
+                quote: 'Sapar orqali 1C va alohida EDO tizimlaridan to‘liq qutildik. Hisob-fakturalar va soliq hisobotlari to‘g‘ridan-to‘g‘ri tizim ichida jo‘natiladi.',
                 author: 'Farrux Rustamov',
                 role: 'Bosh direktor, Tashkent Logistic MChJ',
             },
@@ -413,10 +413,10 @@ export const uz = {
         badge: 'Ko‘p so‘raladigan savollar',
         badgeSub: 'FAQ',
         title: 'Savollaringiz bormi?',
-        description: 'SaparERP haqida eng ko‘p beriladigan savollarga batafsil javoblar.',
+        description: 'Sapar haqida eng ko‘p beriladigan savollarga batafsil javoblar.',
         items: [
             {
-                question: '1. SaparERP soliq hisobotlarini avtomatik boshqaradimi?',
+                question: '1. Sapar soliq hisobotlarini avtomatik boshqaradimi?',
                 answer: 'Soliq hujjatlari platforma ichida tayyorlanadi va sertifikatlangan EDO operatori kanali hamda Davlat soliq qo‘mitasi axborot tizimi orqali yuboriladi — O‘zbekistonda barcha elektron hisobotlar shu tartibda amalga oshiriladi. Ma’lumotlarni boshqa portalga qo‘lda qayta kiritishingiz shart emas.',
             },
             {
@@ -428,7 +428,7 @@ export const uz = {
                 answer: 'Ha. Mijozlar, xodimlar, mahsulotlar va ombor ma’lumotlarini CSV/Excel orqali import qilishingiz mumkin. Onboarding jarayonida jamoamiz 1C dan ko‘chirishga yordam beradi.',
             },
             {
-                question: '4. SaparERP qancha turadi?',
+                question: '4. Sapar qancha turadi?',
                 answer: 'Har bir tarif barcha 8 modulni o‘z ichiga oladi. Kichik jamoalar uchun Boshlang‘ich tarif 450,000 so‘m/oy, Professional 1,200,000 so‘m/oy. Yillik to‘lovda 15% chegirma mavjud. Kutish ro‘yxatiga qo‘shilib maxsus chegirmaga ega bo‘ling.',
             },
             {
@@ -476,7 +476,7 @@ export const uz = {
         backToHome: 'Asosiy sahifaga qaytish',
         badge: 'Jamoa va Mahsulot haqida',
         title: 'Mahalliy Fintech Tajribasi — O‘zbekiston Biznesi Uchun',
-        description: 'SaparERP jamoasi xalqaro banking, korporativ dasturiy injiniring, milliy buxgalteriya va audit tajribasiga ega mutaxassislardan tashkil topgan.',
+        description: 'Sapar jamoasi xalqaro banking, korporativ dasturiy injiniring, milliy buxgalteriya va audit tajribasiga ega mutaxassislardan tashkil topgan.',
         quickContact: 'To‘g‘ridan-to‘g‘ri aloqa',
         coreStrengths: 'Bizning asosiy ustunliklarimiz',
         strengthsList: [

@@ -9,10 +9,10 @@ export default function Footer() {
     const { t, dictionary } = useLanguage();
 
     const socialLinks = [
-        { icon: TwitterIcon, href: 'https://twitter.com/saparerp', label: 'Twitter' },
-        { icon: InstagramIcon, href: 'https://instagram.com/saparerp', label: 'Instagram' },
-        { icon: YoutubeIcon, href: 'https://youtube.com/@saparerp', label: 'Youtube' },
-        { icon: LinkedinIcon, href: 'https://linkedin.com/company/saparerp', label: 'Linkedin' },
+        { icon: TwitterIcon, href: 'https://twitter.com/sapar', label: 'Twitter' },
+        { icon: InstagramIcon, href: 'https://instagram.com/sapar', label: 'Instagram' },
+        { icon: YoutubeIcon, href: 'https://youtube.com/@sapar', label: 'Youtube' },
+        { icon: LinkedinIcon, href: 'https://linkedin.com/company/sapar', label: 'Linkedin' },
     ];
 
     const solutionItems = dictionary?.footer?.solutionsItems || [];

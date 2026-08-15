@@ -58,11 +58,10 @@ export default function DemoPreviewSection() {
                         <button
                             key={tab.id}
                             onClick={() => setActiveTab(tab.id)}
-                            className={`flex items-center gap-1.5 sm:gap-2 px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl font-medium text-xs sm:text-sm transition-all duration-200 cursor-pointer ${
-                                isActive
+                            className={`flex items-center gap-1.5 sm:gap-2 px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl font-medium text-xs sm:text-sm transition-all duration-200 cursor-pointer ${isActive
                                     ? 'bg-[#0B2B33] text-white shadow-lg shadow-[#0B2B33]/15 scale-[1.02]'
                                     : 'bg-white text-slate-600 border border-slate-200 hover:bg-slate-50 hover:text-slate-900'
-                            }`}
+                                }`}
                         >
                             <Icon className={`size-3.5 sm:size-4 ${isActive ? 'text-[#02C39A]' : 'text-slate-400'}`} />
                             <span>{tab.label}</span>
@@ -80,7 +79,7 @@ export default function DemoPreviewSection() {
                         <div className="size-3 rounded-full bg-amber-400" />
                         <div className="size-3 rounded-full bg-emerald-400" />
                         <span className="ml-3 text-xs font-mono text-slate-400 hidden sm:inline">
-                            app.saparerp.uz / {activeTab}
+                            app.sapar.uz / {activeTab}
                         </span>
                     </div>
 
