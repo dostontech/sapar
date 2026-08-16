@@ -5,8 +5,8 @@ import { useTranslation } from 'react-i18next';
 
 // Define supported languages metadata
 export const languages = [
-  { code: 'oz', name: "Ўзбек", flag: '🇺🇿', label: "Ўзбек", script: 'Cyrillic' },
-  { code: 'uz', name: "Oʻzbek", flag: '🇺🇿', label: "Oʻzbek", script: 'Latin' },
+  { code: 'oz', name: "Ўзбек", flag: '🇺🇿', label: "Ўзбек", script: null },
+  { code: 'uz', name: "Oʻzbek", flag: '🇺🇿', label: "Oʻzbek", script: null },
   { code: 'ru', name: 'Русский', flag: '🇷🇺', label: 'Русский', script: null },
   { code: 'en', name: 'English', flag: '🇬🇧', label: 'English', script: null },
 ];
