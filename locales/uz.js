@@ -1,4 +1,16 @@
 export const uz = {
+    meta: {
+        title: 'SAPAR — O‘zbekiston bizneslari uchun yagona ERP boshqaruv platformasi',
+        description: 'Buxgalteriya, savdo, CRM, HR, ombor va EDO (E-IMZO) bitta tizimda. O‘zbekiston milliy standartlariga to‘liq moslashtirilgan.',
+        keywords: 'ERP Uzbekistan, buxgalteriya dasturi, E-IMZO, soliq hisoboti, Didox, Faktura, CRM Uzbek, ombor hisobi',
+    },
+    cookie: {
+        title: 'Cookie fayllari',
+        message: 'Biz sayt ishlashini yaxshilash, tahlil va tajribangizni oshirish uchun cookie fayllaridan foydalanamiz.',
+        accept: 'Qabul qilish',
+        decline: 'Rad etish',
+        privacyPolicy: 'Maxfiylik siyosati',
+    },
     common: {
         getDemo: 'Demo olish',
         contactUs: 'Bog‘lanish',

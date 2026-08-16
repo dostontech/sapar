@@ -18,7 +18,7 @@ i18n
       oz: { translation: oz },
       uz: { translation: uz },
     },
-    fallbackLng: 'en',
+    fallbackLng: 'oz',
     detection: {
       order: ['localStorage', 'navigator', 'htmlTag'],
       caches: ['localStorage'],

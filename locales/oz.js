@@ -1,4 +1,16 @@
 export const oz = {
+    meta: {
+        title: 'SAPAR — Ўзбекистон бизнеслари учун ягона ERP бошқарув платформаси',
+        description: 'Бухгалтерия, савдо, CRM, HR, омбор ва EDO (E-IMZO) битта тизимда. Ўзбекистон миллий стандартларига тўлиқ мослаштирилган.',
+        keywords: 'ERP Uzbekistan, buxgalteriya dasturi, E-IMZO, soliq hisoboti, Didox, Faktura, CRM Uzbek, ombor hisobi',
+    },
+    cookie: {
+        title: 'Cookie файллари',
+        message: 'Биз сайт ишлашини яхшилаш, аналитика ва тажрибангизни ошириш учун cookie файлларидан фойдаланамиз.',
+        accept: 'Қабул қилиш',
+        decline: 'Рад этиш',
+        privacyPolicy: 'Махфийлик сиёсати',
+    },
     common: {
         getDemo: 'Демо олиш',
         contactUs: 'Боғланиш',
@@ -459,6 +471,8 @@ export const oz = {
         faq: 'Кўп сўраладиган саволлар',
         helpCenter: 'Ёрдам маркази',
         support: 'Қўллаб-қувватлаш',
+        privacyPolicy: 'Махфийлик сиёсати',
+        termsOfUse: 'Фойдаланиш шартлари',
         products: 'Маҳсулотлар',
         solutions: 'Ечимлар',
         solutionsItems: [

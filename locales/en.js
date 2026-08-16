@@ -1,4 +1,16 @@
 export const en = {
+    meta: {
+        title: 'SAPAR — The Unified ERP Operating System for Business in Uzbekistan',
+        description: 'Accounting, sales, CRM, HR & payroll, warehouse, and EDO (E-IMZO) unified into one powerful cloud ERP platform for Uzbekistan.',
+        keywords: 'ERP Uzbekistan, accounting software Tashkent, E-IMZO, EDO integration, business management software Central Asia',
+    },
+    cookie: {
+        title: 'Cookie Preferences',
+        message: 'We use cookies to enhance your browsing experience, analyze site traffic, and personalize content.',
+        accept: 'Accept all',
+        decline: 'Decline',
+        privacyPolicy: 'Privacy Policy',
+    },
     common: {
         getDemo: 'Get Demo',
         contactUs: 'Contact Us',
@@ -459,6 +471,8 @@ export const en = {
         faq: 'FAQ',
         helpCenter: 'Help Center',
         support: 'Support',
+        privacyPolicy: 'Privacy Policy',
+        termsOfUse: 'Terms of Use',
         products: 'Products',
         solutions: 'Solutions',
         solutionsItems: [
