@@ -459,6 +459,8 @@ export const uz = {
         faq: 'Ko‘p so‘raladigan savollar',
         helpCenter: 'Yordam markazi',
         support: 'Qo‘llab-quvvatlash',
+        privacyPolicy: 'Maxfiylik siyosati',
+        termsOfUse: 'Foydalanish shartlari',
         products: 'Mahsulotlar',
         solutions: 'Yechimlar',
         solutionsItems: [
