@@ -42,8 +42,8 @@ export default function LanguageSwitcher({ variant = 'desktop' }) {
                             key={lang.code}
                             onClick={() => setLanguage(lang.code)}
                             className={`py-2 px-2.5 text-xs font-semibold rounded-xl transition-all flex items-center justify-between gap-1.5 ${isActive
-                                    ? 'bg-[#0B2B33] text-white shadow-xs'
-                                    : 'bg-white/80 text-zinc-700 hover:bg-white hover:text-zinc-900'
+                                ? 'bg-[#0B2B33] text-white shadow-xs'
+                                : 'bg-white/80 text-zinc-700 hover:bg-white hover:text-zinc-900'
                                 }`}
                         >
                             <div className="flex items-center gap-1.5">
@@ -87,9 +87,9 @@ export default function LanguageSwitcher({ variant = 'desktop' }) {
 
             {isOpen && (
                 <div className="absolute right-0 mt-1.5 w-52 rounded-2xl bg-white p-1.5 shadow-2xl border border-zinc-200 z-50 animate-in fade-in zoom-in-95 duration-150">
-                    <div className="px-2.5 py-1 text-[10px] font-bold text-zinc-400 uppercase tracking-wider">
+                    {/* <div className="px-2.5 py-1 text-[10px] font-bold text-zinc-400 uppercase tracking-wider">
                         Tilni tanlang / Язык / Language
-                    </div>
+                    </div> */}
                     <div className="space-y-0.5 mt-0.5">
                         {languages.map((lang) => {
                             const isActive = language === lang.code;
@@ -101,8 +101,8 @@ export default function LanguageSwitcher({ variant = 'desktop' }) {
                                         setIsOpen(false);
                                     }}
                                     className={`w-full flex items-center justify-between px-2.5 py-2 text-xs font-medium rounded-xl transition-all ${isActive
-                                            ? 'bg-[#EAF5F2] text-[#028090] font-bold'
-                                            : 'text-zinc-700 hover:bg-zinc-50 hover:text-zinc-900'
+                                        ? 'bg-[#EAF5F2] text-[#028090] font-bold'
+                                        : 'text-zinc-700 hover:bg-zinc-50 hover:text-zinc-900'
                                         }`}
                                 >
                                     <div className="flex items-center gap-2">
