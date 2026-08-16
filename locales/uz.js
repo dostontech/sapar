@@ -87,9 +87,9 @@ export const uz = {
             },
             {
                 title: 'Soliq topshirish',
-                desc: 'my3soliq.uz ga qo‘lda kiritish o‘rniga — to‘g‘ridan-to‘g‘ri integratsiya',
+                desc: 'my3soliq.uz ga qo‘lda kiritish o‘rniga — sertifikatlangan EDO kanali orqali',
                 replaces: ['my3soliq.uz'],
-                highlight: 'To‘g‘ridan-to‘g‘ri sinxronizatsiya',
+                highlight: 'Sertifikatlangan EDO kanali orqali sinxronizatsiya',
             },
             {
                 title: 'HR va ish haqi',

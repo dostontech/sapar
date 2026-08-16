@@ -87,9 +87,9 @@ export const oz = {
             },
             {
                 title: 'Солиқ топшириш',
-                desc: 'my3soliq.uz га қўлда киритиш ўрнига — тўғридан-тўғри интеграция',
+                desc: 'my3soliq.uz ga qo‘lda kiritiш o‘rniga — sertifikatlangan EDO kanali orqali',
                 replaces: ['my3soliq.uz'],
-                highlight: 'Тўғридан-тўғри синхронизация',
+                highlight: 'Sertifikatlangan EDO kanali orqali sinxronizatsiya',
             },
             {
                 title: 'HR ва иш ҳақи',

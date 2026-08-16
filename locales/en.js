@@ -87,9 +87,9 @@ export const en = {
             },
             {
                 title: 'Tax Reporting',
-                desc: 'Instead of manual filing on my3soliq.uz — direct automated synchronization',
+                desc: 'Instead of manual filing on my3soliq.uz — via certified EDO channel',
                 replaces: ['my3soliq.uz'],
-                highlight: 'Direct tax authority integration',
+                highlight: 'Certified EDO channel synchronization',
             },
             {
                 title: 'HR & Payroll',

@@ -116,9 +116,9 @@ export default function Footer() {
                         </div>
 
                         <div className="flex items-center gap-6 text-right">
-                            <Link href="/about" className='text-xs text-white/60 hover:text-white transition-colors'>{t('footer.aboutUs')}</Link>
-                            <div className='w-px h-4 bg-white/20'></div>
-                            <Link href="#contact" className='text-xs text-white/60 hover:text-white transition-colors'>{t('footer.contact')}</Link>
+                             <Link href="/privacy" className='text-xs text-white/60 hover:text-white transition-colors'>{t('footer.privacyPolicy')}</Link>
+                             <div className='w-px h-4 bg-white/20'></div>
+                             <Link href="/terms" className='text-xs text-white/60 hover:text-white transition-colors'>{t('footer.termsOfUse')}</Link>
                         </div>
                     </div>
 
